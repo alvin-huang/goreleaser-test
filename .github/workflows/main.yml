@@ -8,7 +8,7 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-go@0c52d547c9bc32b1aa3301fd7a9cb496313a4491 # v5.0.0
-      - uses: hashicorp/setup-hc-releases@943fb9b54fcea12c90e58f4f24a2b4e5e5e90e4e # v2.1.1
+      - uses: hashicorp/setup-hc-releases@b6278359d2a03a51027ed6249ee3eee9ee56aae7 # v2.1.0
         with:
           github-token: ${{ secrets.hc_releases_gh_token }}
       - uses: goreleaser/goreleaser-action@7ec5c2b0c6cdda6e8bbb49444bc797dd33d74dd8 # v5.0.0
